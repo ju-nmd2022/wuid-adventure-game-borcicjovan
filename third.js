@@ -17,3 +17,5 @@ function fnClick(event) {
   }
 }
 button.addEventListener("click", fnClick);
+
+// This was made with help of my classmate Tess, origianlly adapted and taken from https://sebhastian.com/coin-flip-javascript/  

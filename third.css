@@ -13,8 +13,8 @@
     animation: wave-animation 0.5s var(--animation-count) ease-in-out;
     animation-play-state: running;
     position: absolute;
-    margin-top: 15%;
-    margin-left: 30%;
+    margin-top: 20%;
+    margin-left: 27%;
   }
 
   :root {
@@ -80,5 +80,5 @@
   display: none;
   position: absolute;
   margin-left: 35%;
-  margin-top: 3%;
+  margin-top: 4%;
 }
