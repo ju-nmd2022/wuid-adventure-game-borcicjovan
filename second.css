@@ -1,0 +1,67 @@
+.background {
+    background-image: url("room.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    -moz-background-size: cover;
+}
+
+#pillow {
+    position: absolute;
+    width: 100px;
+    margin-left: 14%;
+    margin-top: 45%;
+}
+
+#mug {
+    position: absolute;
+    width: 35px;
+    margin-left: 32%;
+    margin-top: 43%;
+}
+
+#cat {
+    position: absolute;
+    width: 100px;
+    margin-left: 54%;
+    margin-top: 43%;
+}
+
+#note {
+    position: absolute;
+    width: 40px;
+    margin-left: 62.5%;
+    margin-top: 41%;
+}
+
+#glasses {
+  display: none;
+  position: absolute;
+  width: 100px;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+
+#driver {
+  display: none;
+  position: absolute;
+  width: 100px;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+#key {
+  display: none;
+  position: absolute;
+  width: 60px;
+  margin-left: 10%;
+  margin-top: 45%;
+}
+
+#lovenote {
+  display: none;
+  position: absolute;
+  width: 100px;
+  margin-left: 23%;
+  margin-top: 2%;
+}
