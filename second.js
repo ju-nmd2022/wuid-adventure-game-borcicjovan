@@ -1,6 +1,7 @@
 alert("Welcome to the game! You need to find three items to help you in your journey. One will take you further on. Good luck! 🤩")
 
 var pillow = document.getElementById('pillow');
+var glasses = document.getElementById('glasses');
 
 if (localStorage.glasses !== undefined){
   glasses.style.display = localStorage.glasses;
@@ -22,6 +23,7 @@ mug.addEventListener("click", function(){
 })
 
 var driver = document.getElementById('driver');
+var key = document.getElementById('mug');
 
 driver.addEventListener("click", function(){
   driver.style.display = "block"
@@ -29,6 +31,7 @@ driver.addEventListener("click", function(){
 })
 
 var note = document.getElementById('note');
+var lovenote = document.getElementById('lovenote');
 
 if (localStorage.lovenote !== undefined){
   lovenote.style.display = localStorage.lovenote;
